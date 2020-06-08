@@ -1,0 +1,31 @@
+<!-- <div class="container">
+    <div class="row">
+        <ul *ngFor ="let student of students">
+            <li>{{ student.name }}</li>
+        </ul>
+    </div>
+</div> -->
+
+<div class="container">
+    <h4>Student List</h4>
+
+    <div class="row">
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Name</th>
+        <th scope="col">Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor ="let student of students">
+        <td>{{ student.id }}</td>
+        <td>{{ student.name }}</td>
+        <td>{{ student.Age }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+

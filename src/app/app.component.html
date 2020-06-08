@@ -1,4 +1,4 @@
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+<!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="..." class="d-block w-100" alt="...">
@@ -18,4 +18,54 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+</div> -->
+
+<!-- <div class="container">
+  <div class="row">
+<form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+  
+  <label>
+    First Name:
+    <input type="text" formControlName="firstName">
+  </label>
+
+  <label>
+    Last Name:
+    <input type="text" formControlName="lastName">
+  </label>
+  <label>
+    Dept Name:
+    <input type="text" formControlName="dept">
+  </label>
+  <div formGroupName="address">
+      <h3>Address</h3>
+    
+      <label>
+        Street:
+        <input type="text" formControlName="street">
+      </label>
+    
+      <label>
+        City:
+        <input type="text" formControlName="city">
+      </label>
+      
+      <label>
+        State:
+        <input type="text" formControlName="state">
+      </label>
+    
+      <label>
+        Zip Code:
+        <input type="text" formControlName="zip">
+      </label>
+    </div>
+  <button  class="btn btn-success" type="submit" [disabled]="!profileForm.valid">Submit</button>
+</form>
 </div>
+</div> -->
+
+<!-- <app-student></app-student>
+<app-student-list></app-student-list> -->
+<app-customer></app-customer>
+<app-customer-list></app-customer-list>
